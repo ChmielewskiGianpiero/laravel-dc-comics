@@ -29,18 +29,13 @@ class ComicController extends Controller
         return view('comics.show', compact('comic'));
     }
 
-
-
-
-
-
-
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('comics.create');
+
     }
 
     /**
